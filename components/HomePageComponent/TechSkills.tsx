@@ -1,18 +1,22 @@
 import * as React from 'react';
+import classes from './styled.module.scss';
 
-import { StyledWrapper, StyledTitle, StyledTechSkillsWrapper, StyledTechSkillsItem } from './HomepageComponent.styled';
 import { TECH_SKILLS } from './constant';
 
 export const TechSkills: React.FunctionComponent = () => {
   return (
-    <StyledWrapper>
-      <StyledTitle>TECHNICAL SKILLS</StyledTitle>
-      <StyledTechSkillsWrapper>
+    <div className={classes.Wrapper}>
+      <p className={classes.Title}>TECHNICAL SKILLS</p>
+      <div className={classes.TechSkillsWrapper}>
         {TECH_SKILLS.map((skill) => {
-          return <StyledTechSkillsItem key={skill}>{skill}</StyledTechSkillsItem>;
+          return (
+            <div key={skill} className={classes.TechSkillsItem}>
+              {skill}
+            </div>
+          );
         })}
-      </StyledTechSkillsWrapper>
+      </div>
       <br />
-    </StyledWrapper>
+    </div>
   );
 };

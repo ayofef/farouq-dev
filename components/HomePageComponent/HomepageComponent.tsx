@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Image from 'next/image';
-import profilePic from '../../assets/img/farouq.webp';
-import { StyledWrapper } from './HomepageComponent.styled';
+import profilePic from '../../public/farouq.webp';
+import classes from './styled.module.scss';
 
 import { TechSkills } from './TechSkills';
 import { Bio } from './Bio';
@@ -9,7 +9,7 @@ import { Contact } from './Contact';
 
 export const HomePageComponent: React.FunctionComponent = () => {
   return (
-    <StyledWrapper className="container">
+    <div className={`container ${classes.Wrapper}`}>
       <div>
         <Image
           src={profilePic}
@@ -35,6 +35,6 @@ export const HomePageComponent: React.FunctionComponent = () => {
        Contact
        */}
       <Contact />
-    </StyledWrapper>
+    </div>
   );
 };

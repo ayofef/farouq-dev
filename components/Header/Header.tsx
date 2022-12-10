@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { StyledHeader } from './Header.styled';
+import classes from './styled.module.scss';
 
 interface HeaderProps {}
 
 export const Header: React.FunctionComponent<HeaderProps> = () => {
   return (
-    <StyledHeader className="container">
+    <header className={`container ${classes.Header}`}>
       <h1>farouq.dev</h1>
-    </StyledHeader>
+    </header>
   );
 };

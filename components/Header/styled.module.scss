@@ -1,8 +1,4 @@
-'use client';
-
-import styled from 'styled-components';
-
-export const StyledHeader = styled.div`
+.Header {
   padding: 10px 0 0 0;
   h1 {
     font-size: 3.2rem;
@@ -10,4 +6,4 @@ export const StyledHeader = styled.div`
 
     font-family: 'Courier New', Courier, monospace !important;
   }
-`;
+}
