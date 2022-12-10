@@ -1,1 +1,1 @@
-# farouq-dev
+## [farouq.dev](https://farouq.dev)
