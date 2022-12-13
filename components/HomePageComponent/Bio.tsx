@@ -18,7 +18,7 @@ export const Bio: React.FunctionComponent = () => {
       <p className={classes.BioBlob}>
         I&apos;m <strong>Farouq</strong> , a {age} years old <strong>Front-end</strong> developer living in Dublin,
         Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated
-        user interface and web applications with complex business logic with over {experience} years of professional
+        user interface and web applications with complex business logic, with over {experience} years of professional
         experience.
       </p>
       <br />

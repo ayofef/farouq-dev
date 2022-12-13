@@ -12,12 +12,14 @@ const Head = () => {
       />
       <meta
         name="description"
-        content="I'm Farouq , a 26 years old Front-end developer living in Dublin, Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user interface and web applications with complex business logic with over 3 years of professional experience."
+        content="I'm Farouq , a 26 years old Front-end developer living in Dublin, Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user interface and web applications, with complex business logic with over 3 years of professional experience."
       />
       <meta property="og:title" content="farouq.dev | Frontend Engineer" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://farouq.dev" />
       <meta property="og:image" content="https://farouq.dev/farouq.webp" />
+      <meta property="og:description" content="Frontend Engineer" />
+      <meta property="og:site_name" content="farouq.dev" />
       <link rel="icon" href="/icon.png" />
     </>
   );
