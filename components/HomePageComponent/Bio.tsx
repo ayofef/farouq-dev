@@ -6,8 +6,6 @@ export const Bio: React.FunctionComponent = () => {
 
   const year = date.getUTCFullYear();
 
-  const age = year - 1996;
-
   const experience = year - 2019;
 
   return (
@@ -16,9 +14,9 @@ export const Bio: React.FunctionComponent = () => {
       <h2 className={classes.BioGreetings}>Hi, I&apos;m Farouq.</h2>
       <br />
       <p className={classes.BioBlob}>
-        I&apos;m <strong>Farouq</strong> , a {age} years old <strong>Front-end</strong> developer living in Dublin,
-        Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated
-        user interface and web applications with complex business logic, with over {experience} years of professional
+        I&apos;m <strong>Farouq</strong> , a <strong>JavaScript</strong> developer living in Dublin, Ireland and
+        currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user
+        interface and web applications with complex business logic, with over {experience} years of professional
         experience.
       </p>
       <br />

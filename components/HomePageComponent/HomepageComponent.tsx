@@ -6,6 +6,7 @@ import classes from './styled.module.scss';
 import { TechSkills } from './TechSkills';
 import { Bio } from './Bio';
 import { Contact } from './Contact';
+import { Experience } from './Experience';
 
 export const HomePageComponent: React.FunctionComponent = () => {
   return (
@@ -23,17 +24,9 @@ export const HomePageComponent: React.FunctionComponent = () => {
         />
       </div>
       &nbsp;
-      {/* 
-       Bio
-       */}
       <Bio />
-      {/* 
-       TECH SKills
-       */}
       <TechSkills />
-      {/* 
-       Contact
-       */}
+      <Experience />
       <Contact />
     </div>
   );

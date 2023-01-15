@@ -1,3 +1,6 @@
+import VisionRLogo from '../../public/visionr.jpg';
+import WhenThenLogo from '../../public/whenthen.jpg';
+
 export const TECH_SKILLS = [
   'HTML',
   'CSS',
@@ -30,5 +33,20 @@ export const CONTACT_LINKS = [
   {
     label: 'email',
     url: 'mailto:ayofef@gmail.com',
+  },
+];
+
+export const EXPERIENCE = [
+  {
+    logo: VisionRLogo,
+    name: 'VisionR',
+    tags: ['#computer-vision', '#analytics', '#retail-technology'],
+    year: '2022 - Present',
+  },
+  {
+    logo: WhenThenLogo,
+    name: 'WhenThen',
+    tags: ['#fintech', '#payments', '#no-code'],
+    year: '2020 - 2022',
   },
 ];
