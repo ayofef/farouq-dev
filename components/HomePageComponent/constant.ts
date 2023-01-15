@@ -40,7 +40,7 @@ export const EXPERIENCE = [
   {
     logo: VisionRLogo,
     name: 'VisionR',
-    tags: ['#computer-vision', '#analytics', '#retail-technology'],
+    tags: ['#computer-vision', '#retail-technology', '#analytics'],
     year: '2022 - Present',
   },
   {

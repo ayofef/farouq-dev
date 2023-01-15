@@ -18,10 +18,10 @@ export const Experience: React.FunctionComponent<ExperienceProps> = () => {
             </div>
             <div className={classes.Experience__Details}>
               <p className={classes.Experience__Title}>{name}</p>
-              <div className={classes.TechSkillsWrapper}>
+              <div className={classes.TagWrapper}>
                 {tags.map((tag) => {
                   return (
-                    <div key={tag} className={classes.TechSkillsItem}>
+                    <div key={tag} className={classes.Tag}>
                       {tag}
                     </div>
                   );

@@ -82,13 +82,14 @@
 
 .Experience {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin: 4px 0 20px 0;
 
   &__Logo {
     background-color: red;
     border-radius: 4px;
     overflow: hidden;
+    flex-shrink: 0;
   }
   &__Details {
     margin-left: 1.2rem;
@@ -104,6 +105,28 @@
     & p {
       font-size: 1.6rem;
       font-weight: 600;
+    }
+  }
+
+  .TagWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    .Tag {
+      padding: 2px 6px 3px 6px;
+      border-radius: 4px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      background-color: #415a77;
+      color: #e0e1dd;
+      vertical-align: middle;
+      flex-shrink: 0;
+      margin-bottom: 4px;
+
+      &:not(:last-child) {
+        margin-right: 4px;
+      }
     }
   }
 }
