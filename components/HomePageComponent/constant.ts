@@ -8,7 +8,7 @@ export const TECH_SKILLS = [
   'TypeScript',
   'React',
   'NextJS',
-  'GatsbyJS',
+  'Web Components',
   'NodeJS',
   'React Native',
   'Git',

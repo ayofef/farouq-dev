@@ -20,6 +20,11 @@ export const Bio: React.FunctionComponent = () => {
         experience.
       </p>
       <br />
+      <p className={classes.BioBlob}>
+        My true passion is product development and I enjoy all aspects from the initial idea, brainstorming, wireframe,
+        design, development, right to the final product.
+      </p>
+      <br />
       <p className={classes.BioBlob}>I&apos;m hard working, super curious, dedicated, and also a fast learner!</p>
     </div>
   );
