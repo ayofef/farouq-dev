@@ -26,7 +26,7 @@ export async function POST(req: Request) {
   return new StreamingTextResponse(stream, {
     headers: {
       'Access-Control-Allow-Credentials': "true",
-      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Origin': req.headers.get('origin') || '*',
       'Access-Control-Allow-Methods': 'GET,OPTIONS,PATCH,DELETE,POST,PUT'
     },
   });
