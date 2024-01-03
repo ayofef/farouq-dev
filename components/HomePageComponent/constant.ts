@@ -1,5 +1,6 @@
 import VisionRLogo from '../../public/visionr.jpg';
 import WhenThenLogo from '../../public/whenthen.jpg';
+import SolidlinkLogo from "../../public/solidlink.jpg";
 
 export const TECH_SKILLS = [
   'HTML',
@@ -48,5 +49,11 @@ export const EXPERIENCE = [
     name: 'WhenThen',
     tags: ['#fintech', '#payments', '#no-code'],
     year: '2020 - 2022',
+  },
+  {
+    logo: SolidlinkLogo,
+    name: 'SolidLink - Consulting',
+    tags: ['#travel', "#consultation", '#management-app'],
+    year: '2019 - 2020',
   },
 ];

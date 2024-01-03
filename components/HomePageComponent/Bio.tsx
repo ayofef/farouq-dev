@@ -4,7 +4,7 @@ import classes from './styled.module.scss';
 export const Bio: React.FunctionComponent = () => {
   const date = new Date();
 
-  const year = date.getUTCFullYear();
+  const year = date.getFullYear();
 
   const experience = year - 2019;
 
