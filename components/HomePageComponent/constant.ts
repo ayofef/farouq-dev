@@ -46,7 +46,7 @@ export const EXPERIENCE = [
   },
   {
     logo: WhenThenLogo,
-    name: 'WhenThen',
+    name: 'WhenThen (acq. by MangoPay)',
     tags: ['#fintech', '#payments', '#no-code'],
     year: '2020 - 2022',
   },
