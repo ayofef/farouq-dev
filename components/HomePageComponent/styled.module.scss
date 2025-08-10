@@ -1,22 +1,17 @@
 .Wrapper {
-  padding: 20px 0;
+  padding: 10px 0 0 0;
 }
 
-.Title {
-  font-size: 1.6rem;
-  font-weight: 800;
-}
+ 
 .BioGreetings {
-  font-size: 4.8rem;
-  font-weight: 900;
-  margin-top: -8px;
-  margin-left: -2px;
+  font-size: 1.8rem;
+  font-weight: 900;  
 }
 
 .BioBlob {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 2.2;
+  line-height: 1.6;
 }
 
 .TechSkillsWrapper {
@@ -29,9 +24,9 @@
 .TechSkillsItem {
   padding: 2px 6px 3px 6px;
   border-radius: 4px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  background-color: #415a77;
+  background-color: #1c3048;
   color: #e0e1dd;
   vertical-align: middle;
   flex-shrink: 0;
@@ -66,7 +61,7 @@
 
     width: 100%;
     height: 1.6px;
-    background-color: #1b263b;
+    background-color: #1c3048;
     transform: scaleX(0);
     transition: all 0.3s ease-out;
     transform-origin: left;
@@ -95,7 +90,7 @@
     margin-left: 1.2rem;
   }
   &__Title {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 800;
   }
 
@@ -103,7 +98,7 @@
     margin-left: auto;
 
     & p {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-weight: 600;
     }
   }
@@ -116,9 +111,9 @@
     .Tag {
       padding: 2px 6px 3px 6px;
       border-radius: 4px;
-      font-size: 1.3rem;
+      font-size: 1rem;
       font-weight: 700;
-      background-color: #415a77;
+      background-color: #1c3048;
       color: #e0e1dd;
       vertical-align: middle;
       flex-shrink: 0;

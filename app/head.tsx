@@ -1,6 +1,12 @@
 import * as React from 'react';
 
 const Head = () => {
+  const date = new Date();
+
+  const year = date.getFullYear();
+
+  const experience = year - 2019;
+
   return (
     <>
       <title>farouq.dev | Frontend Engineer</title>
@@ -12,7 +18,7 @@ const Head = () => {
       />
       <meta
         name="description"
-        content="I'm Farouq , a 26 years old Front-end developer living in Dublin, Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user interface and web applications, with complex business logic with over 3 years of professional experience."
+        content={`I'm Farouq, Front-end developer living in Dublin, Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user interface and web applications, with complex business logic with over ${experience} years of professional experience.`}
       />
       <meta property="og:title" content="farouq.dev | Frontend Engineer" />
       <meta property="og:type" content="website" />

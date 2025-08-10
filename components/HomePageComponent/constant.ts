@@ -21,7 +21,7 @@ export const TECH_SKILLS = [
 export const CONTACT_LINKS = [
   {
     label: 'github',
-    url: 'https://github.com/ayofef',
+    url: 'https://github.com/farouq-ayofe',
   },
   {
     label: 'linkedin',
