@@ -6,7 +6,7 @@ export const Bio: React.FunctionComponent = () => {
 
   const year = date.getFullYear();
 
-  const experience = year - 2019;
+  const experience = year - 2018;
 
   return (
     <div className={classes.Wrapper}> 
