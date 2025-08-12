@@ -5,7 +5,7 @@ const Head = () => {
 
   const year = date.getFullYear();
 
-  const experience = year - 2019;
+  const experience = year - 2018;
 
   return (
     <>
