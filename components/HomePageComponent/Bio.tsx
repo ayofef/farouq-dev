@@ -12,19 +12,16 @@ export const Bio: React.FunctionComponent = () => {
     <div className={classes.Wrapper}> 
       <h1 className={classes.BioGreetings}>Hi, I&apos;m Farouq.</h1> 
       <p className={classes.BioBlob}>
-        <br />
-        <strong>JavaScript</strong> developer living in Dublin, Ireland and
-        currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user
-        interface and web applications with complex business logic, with over {experience} years of professional
-        experience.
+        <strong>JavaScript</strong> I&apos;m a JavaScript developer based in Dublin, Ireland, currently working at VisionR as a Frontend Engineer. With over {experience} years of experience, I specialise in building sophisticated user interface and web applications with complex business logic.
       </p>
       <br />
       <p className={classes.BioBlob}>
-        My true passion is product development and I enjoy all aspects from the initial idea, brainstorming, wireframe,
-        design, development, right to the final product.
+        My true passion is product development and I enjoy all stages of the development process from the initial idea, brainstorming, wireframe,
+        design, development and shipping the final product.
       </p>
       <br />
-      <p className={classes.BioBlob}>I&apos;m hard working, super curious, dedicated, and also a fast learner!</p>
+      <p className={classes.BioBlob}>I&apos;m always eager to learn, experiment, and push my skills further.</p>
+      <br />
     </div>
   );
 };

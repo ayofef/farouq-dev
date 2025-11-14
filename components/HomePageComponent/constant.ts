@@ -28,8 +28,8 @@ export const CONTACT_LINKS = [
     url: 'https://www.linkedin.com/in/ayofef/',
   },
   {
-    label: 'twitter',
-    url: 'https://twitter.com/farouqsr',
+    label: 'X',
+    url: 'https://x.com/farouqsr',
   },
   {
     label: 'email',
