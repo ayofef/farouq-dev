@@ -19,7 +19,7 @@ export const generateMetadata = (): Metadata => {
 
   return {
     title: 'farouq.dev | Frontend Engineer',
-    description: `I'm Farouq, Front-end developer living in Dublin, Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user interface and web applications, with complex business logic with over ${experience} years of professional experience.`,
+    description: `I'm Farouq, Front-end developer based in Dublin, Ireland and currently working at VisionR as a Frontend Engineer. Expertise in the development of sophisticated user interface and web applications, with complex business logic with over ${experience} years of professional experience.`,
     keywords: [
       'farouq.dev',
       'ayofef',
