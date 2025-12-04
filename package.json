@@ -11,18 +11,18 @@
   "dependencies": {
     "@next/font": "^14.2.15",
     "@types/node": "24.10.1",
-    "@types/react": "19.2.5",
+    "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "@vercel/analytics": "1.5.0",
+    "@vercel/analytics": "1.6.1",
     "eslint": "9.39.1",
-    "eslint-config-next": "16.0.3",
-    "next": "16.0.3",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "sass": "1.94.0",
+    "eslint-config-next": "16.0.7",
+    "next": "16.0.7",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "sass": "1.94.2",
     "typescript": "5.9.3"
   },
   "devDependencies": {
-    "@types/styled-components": "5.1.35"
+    "@types/styled-components": "5.1.36"
   }
 }
