@@ -12,7 +12,7 @@ export const Bio: React.FunctionComponent = () => {
     <div className={classes.Wrapper}> 
       <h1 className={classes.BioGreetings}>Hi, I&apos;m Farouq.</h1> 
       <p className={classes.BioBlob}>
-        <strong>JavaScript</strong> I&apos;m a JavaScript developer based in Dublin, Ireland, currently working at VisionR as a Frontend Engineer. With over {experience} years of experience, I specialise in building sophisticated user interface and web applications with complex business logic.
+        I&apos;m a JavaScript developer based in Dublin, Ireland, currently working at VisionR as a Frontend Engineer. With over {experience} years of experience, I specialise in building sophisticated user interface and web applications with complex business logic.
       </p>
       <br />
       <p className={classes.BioBlob}>
